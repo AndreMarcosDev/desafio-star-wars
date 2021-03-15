@@ -2,13 +2,16 @@ package com.desafio;
 
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@SpringBootTest
-class DesafioStarWarsApplicationTests {
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = DesafioStarWarsApplication.class)
+public class DesafioStarWarsApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
